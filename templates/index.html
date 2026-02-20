@@ -104,10 +104,10 @@
         <input name="height" type="number" required>
 
         <label>Weight</label>
-        <input name="weight" type="number" required>
+        <input name="weight" type="number"  required>
 
-        <label>Smoke </label>
-        <input name="smoke" type="number" required>
+        <label>Smoke (0 = No, 1 = Yes)</label>
+        <input name="smoke" type="number" min="0" max="1" required>
 
         <button type="submit">Predict Birth Weight</button>
 
